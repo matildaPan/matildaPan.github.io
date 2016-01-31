@@ -1,0 +1,48 @@
+<div class="container" id="portfolio_section">
+	<div>
+		<ol class="cd-slider-navigation"> 
+			<li href="#experience" du-smooth-scroll du-scrollspy tooltip-html-unsafe="Work Experience">
+				<a>
+					<i class="fa fa-suitcase fa-2x" ></i>
+				</a>
+			</li>
+
+			<li href="#skills" du-smooth-scroll du-scrollspy tooltip-html-unsafe="Technical Skills">
+				<a >
+					<i class="fa fa-cogs fa-2x"></i>
+				</a>
+			</li>
+
+			<li href="#education" du-smooth-scroll du-scrollspy tooltip-html-unsafe="Education">
+				<a >
+					<i class="fa fa-university fa-2x"></i>
+				</a>
+			</li>
+
+			<li href="#projects" du-smooth-scroll du-scrollspy tooltip-html-unsafe="Projects">
+				<a>
+					<i class="fa fa-tasks fa-2x"></i>
+				</a>
+			</li>
+		</ol>
+	</div>
+
+	<div id="experience" class="portfolio-panel">
+		<div ng-include="'partials/portfolio/work_experience.html'"></div>
+	</div>
+
+	<div id="skills" class="portfolio-panel">
+		<div ng-include="'partials/portfolio/technical_skills.html'"></div>
+	</div>
+
+	<div id="education" class="portfolio-panel">
+		<div ng-include="'partials/portfolio/education.html'"></div>
+	</div>
+
+	<div id="projects" class="portfolio-panel">
+		<div ng-include="'partials/portfolio/projects.html'"></div>
+	</div>
+
+
+
+</div>

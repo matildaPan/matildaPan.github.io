@@ -1,0 +1,31 @@
+{
+  "name": "cv",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matildaPan/cv",
+  "authors": [
+    "Matilda Pan <matilda.yipan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angular-scroll": "~0.7.3",
+    "angular-bootstrap": "~0.14.0",
+    "angular-animate": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-touch": "~1.4.7",
+    "angular-google-maps": "~2.2.1"
+  }
+}
