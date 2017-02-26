@@ -2,9 +2,9 @@ var app = angular.module('myApp', ['ui.router', 'ui.bootstrap', 'duScroll', 'ui.
 	.value('duScrollDuration', 500)
 	.value('duScrollOffset', 90);
 
-app.config(['$stateProvider', '$urlRouterProvider',  function($stateProvider, $urlRouterProvider){
-	$urlRouterProvider.otherwise("/home");
-
+app.config(['$locationProvider', '$stateProvider', '$urlRouterProvider',  function($locationProvider, $stateProvider, $urlRouterProvider){
+    $locationProvider.html5Mode(true);
+    $urlRouterProvider.otherwise("/home");
 	$stateProvider
 		.state('home', {
 			url: '/home', 
@@ -20,10 +20,9 @@ app.config(['$stateProvider', '$urlRouterProvider',  function($stateProvider, $u
 			url: '/contact',
 			templateUrl: 'partials/contact/contact.html',
 			controller: 'contactController'
-		})
-		;
+		});
 }]);
 
 app.run(['$rootScope', '$document', function($rootScope, $document){
 
-}])
+}]);

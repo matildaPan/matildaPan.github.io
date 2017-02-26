@@ -4,7 +4,7 @@ angular.module('ui.googleMap', [])
 .service('uiGoogleMap',['$window','$q', function ($window, $q) {
     
     //Google's url for async maps initialization accepting callback function
-    var asyncUrl = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=',
+    var asyncUrl = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDXZqDb9H3RD1lukwYibR6TwvJN0RMEsVg&v=3.exp&sensor=false&callback=',
         mapsDefer = $q.defer();
     
     //Callback function - resolving promise after maps successfully loaded

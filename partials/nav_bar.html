@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container" ng-controller="navController">
 	<div class="navbar-header">
 		<div class="logo hidden-xs" ><div>Matilda<span> Pan</span></div></div>
 	</div>
-	<div id="nav-menu" class="visible-xs" data-ng-click="isCollapsed = !isCollapsed" ng-init=" isCollapsed = true"></div>
+	<div id="nav-menu" class="visible-xs" ng-click="isCollapsed = !isCollapsed" ></div>
 	<div class="navbar-right" uib-collapse="isCollapsed">
 		<ul class="nav navbar-nav">
 			<li ui-sref-active="active">

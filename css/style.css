@@ -46,7 +46,7 @@ p {
 }
 
 strong {
-	font-weight: none;
+	font-weight: normal;
 }
 
 img {
@@ -507,6 +507,8 @@ Page home.html css
 
 .home-btn-group button{
 	animation: pulse 1s infinite;
+	margin: 10px;
+	font-size: medium;
 }
 
 
@@ -575,10 +577,7 @@ ul.social-icons li a:hover, ul.social-icons li a:hover:focus  {
 	box-shadow:0 0 12px rgba(255,255,255,0.6);
 }
 
-
-}
-
-	ul.social-icons li a:hover:before, ul.social-icons li a:focus:before {
+ul.social-icons li a:hover:before, ul.social-icons li a:focus:before {
 	border-color:#fff;
 	-webkit-transform:scale(1.4);
 	-moz-transform:scale(1.4);
